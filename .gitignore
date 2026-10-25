@@ -1,0 +1,60 @@
+# ROS 2 build output
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.user
+*.swp
+*.swo
+*~
+
+# Compiled files
+*.o
+*.obj
+*.so
+*.dll
+*.a
+*.exe
+
+# Logs and temp
+*.log
+*.tmp
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ROS specific
+*.bag
+*.db3
+*.active
+*.yaml.bak
+.catkin_tools/
+.rosinstall
+
+# Gazebo
+.gazebo/
+
+# Big outputs (keep only final maps)
+*.mp4
+*.avi
+*.mkv
+
+# Env secrets
+.env
+*.secret
